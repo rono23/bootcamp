@@ -438,6 +438,7 @@ ActiveRecord::Schema.define(version: 2020_11_04_093315) do
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "graduation_work", default: false, null: false
     t.index ["user_id"], name: "index_works_on_user_id"
   end
 
