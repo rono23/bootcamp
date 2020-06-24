@@ -23,7 +23,8 @@ class Practice < ApplicationRecord
     source: :user
   has_many :products
   has_many :questions
-  has_many :reference_books, dependent: :destroy
+  has_many :reference_books, inverse_of: :practice
+  accepts_nested_attributes_for :reference_books, reject_if: :all_blank, allow_destroy: true
   belongs_to :category
   acts_as_list scope: :category
   has_one :learning_minute_statistic
