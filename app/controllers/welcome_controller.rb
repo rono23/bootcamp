@@ -4,6 +4,7 @@ class WelcomeController < ApplicationController
   layout "welcome"
 
   def index
+    @mentors = User.mentor.order(:created_at)
   end
 
   def pricing
