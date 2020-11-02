@@ -3,7 +3,7 @@ komagata:
   email: komagata@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Komagata Masaki
+  name: 駒形 真幸
   name_kana: コマガタ マサキ
   twitter_account: komagata
   facebook_url: http://www.facebook.com/komagata1111
@@ -28,7 +28,7 @@ machida:
   email: machidanohimitsu@gmail.com
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Machida Teppei
+  name: 町田 哲平
   name_kana: マチダ テッペイ
   twitter_account: machida
   facebook_url:
@@ -110,7 +110,7 @@ yamada:
   email: yamada@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Yamada Taro
+  name: 山田 太郎
   name_kana: ヤマダ タロウ
   twitter_account: yamada
   facebook_url: http://www.facebook.com/yamada
@@ -130,7 +130,7 @@ kimura:
   email: kimura@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Kimura Tadasi
+  name: 木村 忠
   name_kana: キムラ タダシ
   twitter_account: kimura
   facebook_url: http://www.facebook.com/kimura
@@ -150,7 +150,7 @@ hatsuno:
   email: hatsuno@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Hatsuno Shinji
+  name: 初野 慎二
   name_kana: ハツノ シンジ
   twitter_account: hatsuno
   facebook_url: http://www.facebook.com/hatsuno
@@ -173,7 +173,7 @@ hajime:
   email: hajime@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Hajime Tayo
+  name: 一 田良
   name_kana: ハジメ タヨ
   twitter_account: hajime
   facebook_url: http://www.facebook.com/hajime
@@ -193,7 +193,7 @@ muryou:
   email: muryou@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Muryou Nosuke
+  name: 無料 之助
   name_kana: ムリョウ ノスケ
   slack_account: muryou
   twitter_account: muryou
@@ -214,7 +214,7 @@ kensyu:
   email: kensyu@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Kensyu Seiko
+  name: 研修 聖子
   name_kana: ケンシュウ セイコ
   slack_account: kensyu
   github_account: kensyu
@@ -238,7 +238,7 @@ senpai:
   email: senpai@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Senpai Ichiro
+  name: 先輩 一郎
   name_kana: センパイ イチロウ
   slack_account: senpai
   github_account: senpai

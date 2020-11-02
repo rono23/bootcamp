@@ -2,7 +2,7 @@
   ul.sns-links__items.is-button-group
     li.sns-links__item
       - if user.github_account?
-        = link_to user_github_url(user), class: "sns-links__item-link a-button is-xs is-secondary is-icon" do
+        = link_to user.github_url, class: "sns-links__item-link a-button is-xs is-secondary is-icon" do
           i.fab.fa-github-alt
       - else
         .sns-links__item-link.a-button.is-xs.is-disabled.is-icon

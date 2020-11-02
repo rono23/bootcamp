@@ -5,7 +5,11 @@ module UserDecorator
   CALENDAR_TERM = 30
 
   def twitter_url
-    "https://twitter.com/#{twitter_account}"
+    twitter_account? ? "https://twitter.com/#{twitter_account}" : ""
+  end
+
+  def github_url
+    github_account? ? "https://github.com/#{github_account}" : ""
   end
 
   def role
