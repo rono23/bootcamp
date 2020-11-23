@@ -286,6 +286,8 @@ class User < ApplicationRecord
         self.year_end_party
       when "trainee"
         self.trainees
+      when "unretired"
+        self.unretired
       when "all"
         self.all
       end
