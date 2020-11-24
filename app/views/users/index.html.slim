@@ -33,6 +33,9 @@ header.page-header.is-margin-bottom-0.is-border-bottom-none
             .o-empty-massage__icon
               i.far.fa-sad-tear
             p.o-empty-massage__text
-              = t("target.#{@target}")
+              - if params[:tag]
+                |「#{params[:tag]}」
+              - else
+                = t("target.#{@target}")
               | のユーザーはいません
   = paginate @users, position: "bottom"
