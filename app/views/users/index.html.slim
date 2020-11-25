@@ -4,7 +4,7 @@ header.page-header.is-margin-bottom-0.is-border-bottom-none
   .container
     .page-header__inner
       - if params[:tag]
-        h2.page-header__title 「#{params[:tag]}」のユーザー（#{@users.total_count}）
+        h2.page-header__title タグ「#{params[:tag]}」のユーザー（#{@users.total_count}）
       - else
         h2.page-header__title #{t("target.#{@target}")}（#{@users.total_count}）
       .page-header-actions
@@ -34,7 +34,7 @@ header.page-header.is-margin-bottom-0.is-border-bottom-none
               i.far.fa-sad-tear
             p.o-empty-massage__text
               - if params[:tag]
-                |「#{params[:tag]}」
+                | タグ「#{params[:tag]}」
               - else
                 = t("target.#{@target}")
               | のユーザーはいません
