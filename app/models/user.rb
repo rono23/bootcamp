@@ -251,6 +251,9 @@ class User < ApplicationRecord
     .unretired
     .order(:created_at)
   }
+  scope :same_tags, -> {
+    in_school.unretired
+  }
 
   class << self
     def announcement_receiver(target)
@@ -286,8 +289,6 @@ class User < ApplicationRecord
         self.year_end_party
       when "trainee"
         self.trainees
-      when "unretired"
-        self.unretired
       when "all"
         self.all
       end
